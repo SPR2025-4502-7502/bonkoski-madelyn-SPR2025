@@ -1,0 +1,37 @@
+<title> madelyn's page </title>
+  </head>
+
+  <nav>
+    <a href="https://www.instagram.com/madelynbonkoski.journalism/?hl=en">Link One</a>
+    <a href="https://www.linkedin.com/in/madelyn-bonkoski-828249251/">Link Two</a>
+
+
+  </nav>
+  <body>
+  	<div>
+  		<p>Hello! Welcome to my page</p>	
+    <h1>My first website</h1>
+    <img src="img_5179.jpg">
+
+    <a href="mailto:mgbkqc@umsystem.edu">
+      <h2>email me here</h2>
+  	</a>
+
+  		<p>Hello all. Welcome to my first ever website.</p>	
+      <p>My name is Madelyn and I'm from the Chicago suburbs. I am studying social media and audience journalism at the University of Missouri. Here are me and my friends celebrating the tigers on homecoming. MIZ! </p>
+
+  	</div>
+  	<div>
+    <p> Some of my favorite things include...</p>
+     <ul>
+       <li>Harry Potter</li>
+       <li>Colorado</li>
+       <li>Pinterest</li>
+       <li>Watercolor painting</li>
+       <li>Hydrangeas</li>
+       <li>Fleetwood Mac</li>
+     </ul> 
+    </div>
+
+  </body>
+
