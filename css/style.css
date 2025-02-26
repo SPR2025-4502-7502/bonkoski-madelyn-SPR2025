@@ -29,10 +29,9 @@ body {
 h1 {
   display: flex;
   justify-content: center;
-  font-family: 'Thasadith' sans-serif;
+  font-family: "Yuji Syuku", sans-serif;
   font-size: 2rem;
   color: darkorchid;
-  text-shadow: #e64400 1px 0 10px;
 
     selector {
   background-color: AliceBlue;
