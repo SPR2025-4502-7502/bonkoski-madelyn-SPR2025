@@ -42,6 +42,11 @@ h1 {
   background-color: AliceBlue;
   }
 
+  nav ul li {
+    flex-wrap: wrap;
+    background-color: snow;
+  }
+
   img {
     border: none;
 
