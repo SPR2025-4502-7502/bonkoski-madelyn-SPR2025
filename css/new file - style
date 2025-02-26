@@ -1,1 +1,282 @@
-new file - style 
+style
+
+
+
+
+
+nav {
+
+	background-color: ;
+	max-width: 800px;
+	margin: auto;
+	font-size: 1rem;
+	border-radius: 0.2rem;
+	text-transform: uppercase;
+/*	margin-right:1rem;*/
+}
+
+nav ul {
+	display: flex;
+/*	flex-direction: row-reverse;*/
+/*	align-items: stretch;*/
+	flex-direction: row;
+	justify-content: space-between;
+	margin-block-start: 0em;
+	padding-inline-start: 0px;
+/*	justify-content: right;*/
+/*	margin-left: 1rem;*/
+
+	
+}
+
+nav ul li {
+
+	background-color: whitesmoke;
+/*	flex-flow: row wrap;*/
+/*	align-items: stretch;*/
+	list-style-type: none;
+	padding: 0.3rem;
+	margin: 0.1rem;
+	max-width: 100%;
+	border-radius: 0.5rem;
+/*	border: 1px solid	rgba(127,255,0,0.5);*/
+border: 1px solid	rgba(0,162,230,0.5);
+	border: 5px solid	rgba(230,68,0,0.5);
+}
+
+nav ul li a {
+	font-family: 'Solway', serif;
+/*	font-family: "Pixelify Sans", sans-serif;*/
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+
+	text-decoration: none;
+	color: rgba(230,68,0,0.5);
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: forestgreen;
+}
+
+nav ul li a:hover {
+	text-decoration: ;
+	color: blue;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: rgba(153, 51, 204, 0.5);
+/*	rgb(153,51,204)*/
+}
+
+
+.red-trees {
+	background-image: url("../img/starfield-red-trees.png") !important;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-family: "Yuji Syuku", serif;
+	font-size: 2rem;
+	color: whitesmoke;
+	text-shadow: #e64400 1px 0 10px;
+/*	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;*/
+
+}
+
+
+p {
+	font-family: "IBM Plex Sans", serif;
+}
+
+.intro-text {
+	margin: 1rem;
+	margin-top: 2rem;
+	padding: 1rem;
+/*	background-color: rgba(0,162,230,0.3);*/
+	background-color: rgba(191,236,255, 0.4);
+	border-radius: 10px;
+
+
+}
+
+/* .corner {
+	width: 0;
+    height: 0;
+    border-top: 100px solid rgba(191,236,255, 1.0);
+    border-right: 100px solid transparent;
+}*/
+
+
+/*Adding corners to a div from https://codepen.io/Roye/pen/KKYNGmY*/
+
+.corner {
+/*  width: 50%;*/
+/*  height: 50%;*/
+  position: relative;
+  background-color: rgba(191,236,255,0.5);
+}
+
+.corner::before, .corner::after {
+  content: '';
+  display: block;
+  position: absolute;
+  /* Keep these values the same so that the width and height of the borders is always equal */
+  width: 15%;
+  padding-bottom: 15%;
+}
+
+.corner::before {
+  top: 0;
+  left: 0;
+  border-top: 5px solid rgba(191,236,255,0.8);
+  border-left: 5px solid rgba(191,236,255,0.8);
+  /* Add this if you want them to fall outside the corner */
+  /* transform: translate(-5px, -5px); */
+}
+
+.corner::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 5px solid #e64400;
+  border-right: 5px solid #e64400;
+  /* Add this if you want them to fall outside the box */
+  /* transform: translate(5px, 5px); */
+}
+
+
+
+
+
+.intro-text p {
+/*	text-shadow: whitesmoke 1px 0 10px;*/
+}
+
+
+.flex-squares {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+
+}
+
+
+.blue {
+	background-color: blue;
+	width: 40px;
+	height: 50px;
+	margin: 1rem;
+
+}
+
+.red {
+	background-color: orangered;
+	width: 40px;
+	height: 50px;
+
+}
+
+
+.purple {
+	background-image: url(../img/BloodchildButler.jpg);
+	background-color: mediumpurple;
+	width: 40px;
+	height: 50px;
+}
+
+
+.first-page {
+	font-style: italic;
+	color:red;
+}
+
+
+.main-image {
+	display: flex;
+	
+}
+
+img {
+	border: none;
+}
+
+.main-image img {
+
+	max-width: 45%;
+	border-radius: 3000px;
+	margin: auto;
+
+}
+
+.terminal {
+	background-color: black;
+  	background-image: radial-gradient(
+    		rgba(0, 150, 0, 0.75), black 120%
+ 			 );
+  	height: 100vh;
+}
+
+.terminal .space {
+	color: white;
+	font: 1.3rem Inconsolata, monospace;
+	text-shadow: 0 0 5px #C8C8C8;
+}
+
+.terminal .space:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: repeating-linear-gradient(
+    0deg,
+    rgba(black, 0.15),
+    rgba(black, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+}
+
+
+footer {
+	margin: 1rem;
+	padding: 1rem;
+	background-color: black;
+	color: whitesmoke;
+	border-radius: 10px;
+}
+
+
+/*start of media query */
+@media screen and (max-width: 500px){
+
+	.flex-squares {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+
+	}
+
+	.nesting {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.plantlist {
+		font-size: 2rem;
+	}
+
+	.plantlist li {
+		list-style-type: square;
+
+	}
+
+}
