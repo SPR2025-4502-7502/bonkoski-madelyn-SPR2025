@@ -14,8 +14,6 @@ body {
       font-size: 6rem;   
       color: DarkCyan;
     }
-	
-}
 
  body {
       margin: 0;
@@ -29,7 +27,7 @@ body {
 
     h1 {
       text-align: center;
-      font-size: 2rem;  
+      font-size: 3rem;  
       color: LavenderBlush;      
     }
      .center-text {
@@ -38,6 +36,11 @@ body {
 
     selector {
   background-color: AliceBlue;
+  }
+
+  img {
+    width: 400px;
+    height:200px;
   }
 
 </ style>
